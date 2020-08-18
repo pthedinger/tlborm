@@ -738,7 +738,7 @@ macro_rules! recurrence {
                 }
             }
 
-            Recurrence { mem: [1, 1], pos: 0 }
+            Recurrence { mem: [0, 1], pos: 0 }
         }
     };
 }
